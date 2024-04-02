@@ -7,10 +7,8 @@ require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
-	github.com/elazarl/goproxy v0.0.0-20191011121108-aa519ddbe484 // indirect
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-git/go-git/v5 v5.3.0
-	github.com/go-logr/logr v0.4.0 // indirect
+	github.com/go-git/go-git/v5 v5.11.0
 	github.com/go-logr/zapr v0.2.0
 	github.com/go-openapi/errors v0.19.2
 	github.com/go-openapi/runtime v0.19.4
@@ -19,14 +17,15 @@ require (
 	github.com/go-openapi/swag v0.19.5
 	github.com/go-openapi/validate v0.19.8
 	github.com/gocql/gocql v0.0.0-20200815110948-5378c8f664e9
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.6.0
 	github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
 	github.com/hashicorp/go-version v1.2.1
+	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/magiconair/properties v1.8.1
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mitchellh/mapstructure v1.1.2
-	github.com/onsi/ginkgo v1.15.0
-	github.com/onsi/gomega v1.10.2
+	github.com/onsi/ginkgo v1.16.4
+	github.com/onsi/gomega v1.27.10
 	github.com/pkg/errors v0.9.1
 	github.com/scylladb/go-log v0.0.4
 	github.com/scylladb/go-set v1.0.2
@@ -40,7 +39,7 @@ require (
 	go.uber.org/multierr v1.5.0
 	go.uber.org/zap v1.15.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.20.4
 	k8s.io/apimachinery v0.20.4
 	k8s.io/apiserver v0.20.4
